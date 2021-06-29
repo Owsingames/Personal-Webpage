@@ -1,0 +1,115 @@
+/* overide/set all margin and padding to 0*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/************************* NAV BAR ***********************/
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #F0EBCC;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3F3697;
+    border: 2px solid black;
+}
+
+nav a:visited{
+    color: #3F3697;
+}
+nav a:hover{
+    color: #F0EBCC;
+    background-color: #3F3697;
+}
+
+.bonsai{
+    display: inline;
+    float: left;
+    padding: 0 5px 0 0;
+}
+
+/************************ title section / Home Page  *************/
+#title{
+    background-color: #3D84B8;
+    text-align: center;
+}
+
+.titleText{
+    padding: 8%;
+    color: blanchedalmond;
+    font-size: 2rem;
+}
+
+.mountain{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5%;
+}
+
+.top-cloud{
+    position: relative;
+    left: 15%;
+  }
+  
+.bottom-cloud{
+    position: relative;
+    right: 20%;
+}
+
+/*********************** Home page / Paragraphs******************/
+.middle-section{
+    background-color: #F0EBCC;
+    color: #3F3697;
+    padding: 5%;
+}
+
+.heading{
+    text-align: center;
+    color: #3F3697;
+}
+
+.p-center{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+hr{
+    border: dotted #3F3697 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+/************************ footer *****************************/
+#footer{
+    background-color: #3F3697;
+    color: #F0EBCC;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-link{
+    font-size: 1.2em;
+}
+
+.footer-link a:visited{
+    color: #F0EBCC;
+}
+
+.footer-link a:hover{
+    color: #3F3697;
+    background-color: #F0EBCC;
+}
+
+/*********************** About me Page ************************/
+.profile-picture{
+    border-radius: 50%;
+    margin-top: 5%;
+    border: solid 2px black;
+    height: 300px;
+    display: inline-block;
+  }
+
